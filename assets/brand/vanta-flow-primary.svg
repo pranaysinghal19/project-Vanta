@@ -1,0 +1,26 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="900" y2="940" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C1C20"/>
+      <stop offset="1" stop-color="#111113"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="720" y1="170" x2="350" y2="860" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF6A57"/>
+      <stop offset="0.36" stop-color="#EF7EC7"/>
+      <stop offset="0.65" stop-color="#A36CF4"/>
+      <stop offset="1" stop-color="#5B43D6"/>
+    </linearGradient>
+    <linearGradient id="shade" x1="610" y1="500" x2="380" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8060E8" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#281A66" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="soft" x="120" y="80" width="784" height="864" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="28" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" rx="224" fill="url(#bg)"/>
+  <g filter="url(#soft)">
+    <path d="M726 140C712 256 655 328 565 378C475 428 357 460 305 542C250 632 289 716 374 776C413 804 461 828 527 860C470 782 442 718 453 662C465 596 517 552 596 506C699 444 766 344 764 222C763 192 751 164 726 140Z" fill="url(#flow)"/>
+    <path d="M305 542C277 588 274 632 290 672C311 724 359 766 429 802C470 824 506 842 527 860C470 782 442 718 453 662C461 618 485 584 525 552C433 574 357 564 305 542Z" fill="url(#shade)"/>
+  </g>
+</svg>
