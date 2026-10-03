@@ -1,0 +1,18 @@
+{
+  "name": "project-vanta",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Vanta private accountability membership monorepo",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm --workspace @vanta/web run dev",
+    "build:web": "npm --workspace @vanta/web run build",
+    "typecheck": "npm --workspace @vanta/web run typecheck"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
